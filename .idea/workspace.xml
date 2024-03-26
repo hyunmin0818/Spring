@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1bfd6b3-1b24-496d-89dd-bb68e45a83be" name="변경" comment="설정2">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a1bfd6b3-1b24-496d-89dd-bb68e45a83be" name="변경" comment="설정3">
+      <change afterPath="$PROJECT_DIR$/Core/src/main/java/com/codingbox/core/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/ddd66998a3dca080295ff460bdae7938fdd9bea1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/ddd66998a3dca080295ff460bdae7938fdd9bea1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/java/com/example/core/CoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/com/codingbox/core/CoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/test/java/com/example/core/CoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/test/java/com/codingbox/example/core/CoreApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +43,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Core" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Core" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -45,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="HTML File" />
       </list>
     </option>
@@ -59,6 +73,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2eCsFz5ci3DXFcHCXmKBhY9YPvS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,7 +82,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,43 +100,36 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "d5bc3c81a9e5fc7ce7e31dd311e6a7fe",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.Core [dependencies]">
-    <configuration name="Core [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Core.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.core.CoreApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.core.CoreApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingbox.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Core [dependencies]" />
+        <item itemvalue="Spring Boot.CoreApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +141,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711419796918</updated>
-      <workItem from="1711419797644" duration="1279000" />
+      <workItem from="1711419797644" duration="1898000" />
+      <workItem from="1711421813232" duration="370000" />
+      <workItem from="1711422297360" duration="3971000" />
     </task>
     <task id="LOCAL-00001" summary="설정1">
       <created>1711420504274</created>
@@ -144,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711420715703</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="설정3">
+      <created>1711421092869</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711421092869</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,12 +178,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -174,9 +201,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="설정1" />
     <MESSAGE value="설정2" />
-    <option name="LAST_COMMIT_MESSAGE" value="설정2" />
+    <MESSAGE value="설정3" />
+    <option name="LAST_COMMIT_MESSAGE" value="설정3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

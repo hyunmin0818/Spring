@@ -1,14 +1,10 @@
 
 ?
 Core/.gitignore,3\c\3cf9fb4057d5e614c3f2164e0f34854a7e55f52b
-m
-=Core/src/test/java/com/example/core/CoreApplicationTests.java,d\d\ddd66998a3dca080295ff460bdae7938fdd9bea1
 A
 Core/build.gradle,e\b\eb50fdb6813e69b062711443f4885f1addb6109d
 K
 .idea/modules/Core.test.iml,4\8\4855d5581d3328f6a5db52f503c76958afeabf8c
-h
-8Core/src/main/java/com/example/core/CoreApplication.java,2\5\25409fb536e0dd8ddb3a206366834a61ac6d8089
 ]
 -Core/gradle/wrapper/gradle-wrapper.properties,b\a\ba1ca61475369a797101474dc62c5cffa9fd5b67
 D
@@ -64,3 +60,13 @@ w
 G.idea/sonarlint/issuestore/3/c/3cf9fb4057d5e614c3f2164e0f34854a7e55f52b,5\7\570caa62027e031d419cf4ba742d731b620f486f
 w
 G.idea/sonarlint/issuestore/2/5/25409fb536e0dd8ddb3a206366834a61ac6d8089,b\1\b1092b182d0c2b5f36e09b763b15f1f20fe84200
+<
+Core/HELP.md,4\6\467d382f6c998a1d45619b25e1e2b2800ee73125
+=
+Core/Core.iml,5\a\5a13d676268069be5f3b5b4d9f0e62d49981fe55
+j
+:Core/src/main/java/com/codingbox/core/CoreApplication.java,3\d\3d138286700e3d6cab418b4c0a7afb9cce460434
+u
+ECore/src/main/java/com/codingbox/core/controller/HelloController.java,8\8\88a67035e095d2ecb3cbf39ceab0c005c63c55a9
+w
+GCore/src/test/java/com/codingbox/example/core/CoreApplicationTests.java,6\a\6a56ed336c6f5b5997ca5db4229b325dec0e8d62

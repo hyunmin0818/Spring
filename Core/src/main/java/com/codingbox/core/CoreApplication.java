@@ -1,4 +1,4 @@
-package com.example.core;
+package com.codingbox.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
