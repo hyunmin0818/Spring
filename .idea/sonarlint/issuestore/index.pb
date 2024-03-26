@@ -64,3 +64,7 @@ u
 ECore/src/main/java/com/codingbox/core/controller/HelloController.java,8\8\88a67035e095d2ecb3cbf39ceab0c005c63c55a9
 w
 GCore/src/test/java/com/codingbox/example/core/CoreApplicationTests.java,6\a\6a56ed336c6f5b5997ca5db4229b325dec0e8d62
+h
+8Core/src/main/java/com/codingbox/core/dto/MemberDTO.java,0\8\0821eb22ce46d27491f7aabac84af64db4ceff53
+v
+FCore/src/main/java/com/codingbox/core/controller/MemberController.java,e\6\e67c580ea228dbdcb379c19f57cf3189e77253c9

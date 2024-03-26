@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<th>번호</th>
+			<th>이름</th>
+			<th>전화번호</th>
+		</tr>
+		<tr th:object="${member}">
+			<td><span th:text="*{no}"/></td>
+			<td><span th:text="*{name}"/></td>
+			<td><span th:text="*{phone}"/></td>
+		</tr>
+		
+	</table>
+</body>
+</html>
