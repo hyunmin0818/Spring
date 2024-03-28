@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="출근">
-      <change afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/dto/HelloData.java" afterDir="false" />
+    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="3교시">
+      <change afterPath="$PROJECT_DIR$/day03/src/main/http/aaa.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/controller/RequestBodyJsonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestParamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestParamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/static/basic/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/static/basic/form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -87,6 +87,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "8624841524a07eb4a9c77b20e375296e",
     "vue.rearranger.settings.migration": "true"
   },
@@ -96,7 +97,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Day03Application">
+    <configuration name="aaa | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/day03/src/main/http/aaa.http" requestIdentifier="#1" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="aaa 내 전체" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/day03/src/main/http/aaa.http">
+      <method v="2" />
+    </configuration>
     <configuration name="Day03Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="core3.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.core3.Day03Application" />
@@ -104,6 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 요청.aaa | #1" />
+        <item itemvalue="HTTP 요청.aaa 내 전체" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711588324666</updated>
       <workItem from="1711588330362" duration="3191000" />
-      <workItem from="1711591567731" duration="2635000" />
+      <workItem from="1711591567731" duration="9044000" />
     </task>
     <task id="LOCAL-00001" summary="출근">
       <created>1711591836236</created>
@@ -123,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711591836236</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3교시">
+      <created>1711594419110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711594419110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +162,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="출근" />
-    <option name="LAST_COMMIT_MESSAGE" value="출근" />
+    <MESSAGE value="3교시" />
+    <option name="LAST_COMMIT_MESSAGE" value="3교시" />
   </component>
 </project>
