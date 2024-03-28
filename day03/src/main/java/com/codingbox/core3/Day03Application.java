@@ -1,12 +1,13 @@
-package com.codingbox.core;
+package com.codingbox.core3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CoreApplication {
+public class Day03Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(CoreApplication.class, args);
+        SpringApplication.run(Day03Application.class, args);
     }
+
 }

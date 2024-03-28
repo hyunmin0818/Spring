@@ -48,7 +48,9 @@ cmake-build-*/
 
 # IntelliJ
 out/
-
+.idea
+*.iml
+*.ipr
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
@@ -159,5 +161,3 @@ gradle-app.setting
 ### Gradle Patch ###
 # Java heap dump
 *.hprof
-
-# End of https://www.toptal.com/developers/gitignore/api/intellij,java,gradle
