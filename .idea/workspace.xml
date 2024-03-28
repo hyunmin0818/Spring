@@ -4,12 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="3교시">
-      <change afterPath="$PROJECT_DIR$/day03/src/main/http/aaa.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/controller/RequestBodyJsonController.java" afterDir="false" />
+    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="점심시간">
+      <change afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/basic/BasicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestBodyJsonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/response/ResponseViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/text-basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/text-unescaped.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/variable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/response/hello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/http/aaa.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/Day03Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/Day03Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/controller/RequestBodyJsonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/dto/HelloData.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/dto/HelloData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestParamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestParamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/java/oracle/jdbc/OracleDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/static/basic/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/static/basic/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/test/java/com/codingbox/core3/Day03ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/test/java/com/codingbox/core3/Day03ApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +63,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTTP Request" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,6 +79,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2eINqHCQ7oCluf0we4lsACPn9gY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -69,6 +90,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -97,6 +120,13 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\static\basic" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\static\templates.basic" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\templates\response\basic" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.Day03Application">
     <configuration name="aaa | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/day03/src/main/http/aaa.http" requestIdentifier="#1" runType="단일 요청 실행">
       <method v="2" />
@@ -127,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711588324666</updated>
       <workItem from="1711588330362" duration="3191000" />
-      <workItem from="1711591567731" duration="9044000" />
+      <workItem from="1711591567731" duration="15781000" />
     </task>
     <task id="LOCAL-00001" summary="출근">
       <created>1711591836236</created>
@@ -143,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711594419110</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="점심시간">
+      <created>1711602919415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711602919415</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,8 +198,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="출근" />
     <MESSAGE value="3교시" />
-    <option name="LAST_COMMIT_MESSAGE" value="3교시" />
+    <MESSAGE value="점심시간" />
+    <option name="LAST_COMMIT_MESSAGE" value="점심시간" />
   </component>
 </project>
