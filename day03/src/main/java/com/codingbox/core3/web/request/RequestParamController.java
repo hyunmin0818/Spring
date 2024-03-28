@@ -1,13 +1,16 @@
 package com.codingbox.core3.web.request;
 
+import com.codingbox.core3.web.dto.HelloData;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.IOException;
+import java.util.Map;
 
 @Controller
 public class RequestParamController {
@@ -77,6 +80,13 @@ public class RequestParamController {
         return "ok";
     }
 
+    /*
+     * @RequestParam
+     * - defaultValue 옵션 사용시
+     *      -> 기본값을 세팅
+     *      -> 빈 문자열인 경우에도 적용
+     *      -> 이미 기본값이 세팅이 되었기 때문에 required옵션이 의미가 없다.
+     */
     @ResponseBody
     @RequestMapping("/request-param-default")
     public String requestparamDefault(@RequestParam(required = true, defaultValue = "guest") String username,
@@ -87,4 +97,56 @@ public class RequestParamController {
     }
 
 
+    @ResponseBody
+    @RequestMapping("/request-param-map")
+    public String requestparamMap(@RequestParam Map<String, Object> paramMap){
+        System.out.println("username : " + paramMap.get("username"));
+        System.out.println("age : " + paramMap.get("age"));
+        return "ok";
+    }
+
+    @ResponseBody
+    @RequestMapping("/model-attribute-v1")
+    public String modelAttributeV1(@RequestParam String username, @RequestParam Integer age){
+        HelloData helloData = new HelloData();
+        helloData.setUsername(username);
+        helloData.setAge(age);
+
+        System.out.println("username: " + helloData.getUsername());
+        System.out.println("age: " + helloData.getAge());
+        return "ok";
+    }
+
+    /*
+     * @ModelAttribute 사용
+     */
+    @ResponseBody
+    @RequestMapping("/model-attribute-v2")
+    public String modelAttributeV2(@ModelAttribute HelloData helloData){
+
+        System.out.println("username: " + helloData.getUsername());
+        System.out.println("age: " + helloData.getAge());
+        System.out.println("helloData: " + helloData.toString());
+
+        return "ok";
+    }
+
+    /*
+     * @ModelAttribute, @RequestParam 생략 가능
+     * - 혼란이 발생할 수 있다.
+     * - String, int, Integer, ... 단순 타입이면 ->
+     *      @RquestParam이 생략되었다고 판단
+     * - DTO객체가 파라미터에 있으면 ->
+     *      @ModelAttribute이 생략되었다고 판단
+     */
+    @ResponseBody
+    @RequestMapping("/model-attribute-v3")
+    public String modelAttributeV3(HelloData helloData){
+
+        System.out.println("username: " + helloData.getUsername());
+        System.out.println("age: " + helloData.getAge());
+        System.out.println("helloData: " + helloData.toString());
+
+        return "ok";
+    }
 }

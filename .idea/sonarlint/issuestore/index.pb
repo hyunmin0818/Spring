@@ -34,3 +34,5 @@ ECore/src/main/java/com/codingbox/core/controller/HelloController.java,8\8\88a6
 day03/gradlew,9\6\9681b65b3dde0b42ac1160ae08e32677d34f7c4d
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+n
+>day03/src/main/java/com/codingbox/core3/web/dto/HelloData.java,b\3\b3c50feac396e2755ed0cde813e5d6d79ef8206c
