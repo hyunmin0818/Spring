@@ -3,14 +3,24 @@ package com.codingbox.core3.web.data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
-@Setter
+@Getter @Setter
 public class User {
-    private String username;
-    private int age;
-
-    public User(String username, int age) {
-        this.username = username;
-        this.age = age;
-    }
+	private String username;
+	private int age;
+	
+	public User(String username, int age) {
+		super();
+		this.username = username;
+		this.age = age;
+	}
+	
 }
+
+
+
+
+
+
+
+
+

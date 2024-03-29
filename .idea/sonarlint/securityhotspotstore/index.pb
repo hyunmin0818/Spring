@@ -1,12 +1,6 @@
 
-r
-Bday03/src/test/java/com/codingbox/core3/Day03ApplicationTests.java,6\1\61a5c996aa7064c845d7a1bc12763460b58849cd
-m
-=day03/src/main/java/com/codingbox/core3/Day03Application.java,5\f\5f42301f0bb6397b3babcd577f30eb30f9c0e390
 
 Oday03/src/main/java/com/codingbox/core3/web/request/RequestParamController.java,2\2\2270744a580d933774cb1624072eef87c2b7ba79
-a
-1day03/src/main/java/oracle/jdbc/OracleDriver.java,9\f\9fbe03be85d33bac968618139718ce7c7fd9dece
 B
 day03/build.gradle,a\e\aeda26de0598ab72738bf698f5617c9c3aee2efd
 @
@@ -37,12 +31,6 @@ ECore/src/main/java/com/codingbox/core/controller/HelloController.java,8\8\88a6
 n
 >day03/src/main/java/com/codingbox/core3/web/dto/HelloData.java,b\3\b3c50feac396e2755ed0cde813e5d6d79ef8206c
 Ä
-Pday03/src/main/java/com/codingbox/core3/controller/RquestBodyJsonController.java,b\4\b468982113fc076bd9526f86378af9ff0464421e
-Å
-Qday03/src/main/java/com/codingbox/core3/controller/RequestBodyJsonController.java,e\c\ecfe8ce26fdc00e6a892076a8b84e3b946da2926
-L
-day03/src/main/http/aaa.http,1\6\16b283372f6c8ab7dadcec74a1123a5d716a501c
-Ä
 Pday03/src/main/java/com/codingbox/core3/web/response/ResponseViewController.java,e\5\e5326d1087e3975320322261e7c4eb56554c9271
 v
 Fday03/src/main/java/com/codingbox/core3/web/basic/BasicController.java,a\5\a512db561ca4d1c683254457034344b727fa2e16
@@ -52,3 +40,15 @@ j
 :day03/src/main/java/com/codingbox/core3/web/data/User.java,b\f\bf24474f7937c8cfdb17c30c1ce76d511086215e
 Ç
 Rday03/src/main/java/com/codingbox/core3/web/request/RequestBodyJsonController.java,a\4\a412741f1e87bf39e750c76eb73bf77c7cd1ccae
+m
+=day03/src/main/java/com/codingbox/core3/Core3Application.java,e\2\e2eddd27d26ec4516a65d4e32ee08c3ff413d56d
+r
+Bday03/src/test/java/com/codingbox/core3/Core3ApplicationTests.java,b\e\bee5bfe2ec88a5d7c25596ea662acd48050340fd
+x
+Hday03/src/main/java/com/codingbox/core3/web/basic/InteralController.java,0\5\05e7b5f2b8377e3c0285cfd64167b2644c6850ee
+y
+Iday03/src/main/java/com/codingbox/core3/web/basic/InternalController.java,d\7\d7f3d1463c1eb9b46d133aa2985bd17c54039455
+p
+@day03/src/main/java/com/codingbox/core3/web/basic/Operation.java,b\b\bb56e70a52f87741274ccc8425074574b68a3cc5
+z
+Jday03/src/main/java/com/codingbox/core3/web/basic/OperationController.java,e\3\e3b87e13ebc08b94b956ed8b0bcc87d664a9e3da
