@@ -4,32 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="종료">
-      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/attribute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/each.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/literal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/operation.html" afterDir="false" />
+    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="2교시">
+      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/condition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/java/com/codingbox/test/ExamApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/test/java/com/codingbox/test/ExamApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/ProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/controller/BasicItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/basic/addForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/basic/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/basic/items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/addForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/editForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/test/java/com/example/project/ProjectApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/day03/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/Day03Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/basic/BasicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/basic/BasicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/data/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/dto/HelloData.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/dto/HelloData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestBodyJsonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestBodyJsonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestParamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestParamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/response/ResponseViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/response/ResponseViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/static/basic/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/static/basic/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day03/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/link.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/link.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/text-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/text-basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/text-unescaped.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/text-unescaped.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/variable.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/variable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/templates/response/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/response/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/test/java/com/codingbox/core3/Day03ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/each.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/each.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +64,19 @@
     <execution />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../../Dobby_Project/dobby_music">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/day03">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/exam">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/project">
       <ProjectState />
     </projectState>
   </component>
@@ -50,14 +86,12 @@
         <task path="$PROJECT_DIR$/day03">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/project">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="core3" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -68,13 +102,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
+        <option value="CSS File" />
         <option value="Class" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -83,7 +118,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2eINqHCQ7oCluf0we4lsACPn9gY" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -92,40 +127,48 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/gb_lhm_1218/Dobby_Project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8624841524a07eb4a9c77b20e375296e&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/gb_lhm_1218/spring/workspace/project/build.gradle",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "71be012be0aabb8be787a6d56415009b",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\gb_lhm_1218\spring\workspace\project\src\main\resources\templates\basic" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\project\src\main\resources\static\basic" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\gb_lhm_1218\spring\workspace\project\src\main\resources\templates\basic" />
       <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\templates\basic" />
       <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\static\basic" />
       <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\static\templates.basic" />
@@ -139,38 +182,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Day03Application">
-    <configuration name="Core3ApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/day03" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.codingbox.core3.Core3ApplicationTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
+  <component name="RunManager" selected="Spring Boot.ProjectApplication">
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="aaa | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/day03/src/main/http/aaa.http" requestIdentifier="#1" runType="단일 요청 실행">
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="aaa 내 전체" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/day03/src/main/http/aaa.http">
+    <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="literal.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/workspace/day03/src/main/resources/templates/basic/literal.html" useBuiltInWebServerPort="true">
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="#8" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="Core3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -187,12 +212,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DobbyMusicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="music.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.side.music.DobbyMusicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="exam.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.test.ExamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="exam.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.exam.ExamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.item.ProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.item.domain.item.ProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP 요청.generated-requests | #6" />
+      <item itemvalue="HTTP 요청.generated-requests | #7" />
+      <item itemvalue="HTTP 요청.generated-requests | #8" />
+      <item itemvalue="HTTP 요청.generated-requests | #4" />
+      <item itemvalue="HTTP 요청.generated-requests | #5" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (1)" />
+      <item itemvalue="Spring Boot.ExamApplication" />
+      <item itemvalue="Spring Boot.ExamApplication (1)" />
+      <item itemvalue="Spring Boot.ProjectApplication (1)" />
+      <item itemvalue="Spring Boot.DobbyMusicApplication" />
+      <item itemvalue="Spring Boot.ProjectApplication" />
+      <item itemvalue="Spring Boot.Day03Application" />
+      <item itemvalue="Spring Boot.Core3Application" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript 디버그.literal.html" />
-        <item itemvalue="Gradle.Core3ApplicationTests" />
-        <item itemvalue="HTTP 요청.aaa | #1" />
-        <item itemvalue="HTTP 요청.aaa 내 전체" />
+        <item itemvalue="HTTP 요청.generated-requests | #8" />
+        <item itemvalue="HTTP 요청.generated-requests | #7" />
+        <item itemvalue="HTTP 요청.generated-requests | #6" />
+        <item itemvalue="HTTP 요청.generated-requests | #5" />
+        <item itemvalue="HTTP 요청.generated-requests | #4" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +299,16 @@
       <workItem from="1711591567731" duration="16366000" />
       <workItem from="1711610155345" duration="179000" />
       <workItem from="1711670890184" duration="1092000" />
-      <workItem from="1711672013740" duration="4871000" />
+      <workItem from="1711672013740" duration="6764000" />
+      <workItem from="1711678993872" duration="1317000" />
+      <workItem from="1711680378683" duration="6556000" />
+      <workItem from="1711688535991" duration="10229000" />
+      <workItem from="1711701013919" duration="525000" />
+      <workItem from="1711928153000" duration="1101000" />
+      <workItem from="1711929697855" duration="126000" />
+      <workItem from="1711929863429" duration="2079000" />
+      <workItem from="1711932355025" duration="3999000" />
+      <workItem from="1711937286990" duration="2887000" />
     </task>
     <task id="LOCAL-00001" summary="출근">
       <created>1711591836236</created>
@@ -238,7 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711609796007</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2교시">
+      <created>1711677569953</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711677569953</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2교시">
+      <created>1711677592540</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711677592540</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +375,8 @@
     <MESSAGE value="3교시" />
     <MESSAGE value="점심시간" />
     <MESSAGE value="종료" />
-    <option name="LAST_COMMIT_MESSAGE" value="종료" />
+    <MESSAGE value="2교시" />
+    <option name="LAST_COMMIT_MESSAGE" value="2교시" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

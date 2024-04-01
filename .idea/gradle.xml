@@ -4,11 +4,38 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../Dobby_Project/dobby_music" />
+        <option name="gradleJvm" value="JavaSE-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../../Dobby_Project/dobby_music" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/day03" />
         <option name="gradleJvm" value="JavaSE-17" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/day03" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/exam" />
+        <option name="gradleJvm" value="JavaSE-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/exam" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/project" />
+        <option name="gradleJvm" value="JavaSE-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/project" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -11,6 +11,37 @@
 			<th>username</th>
 			<th>age</th>
 		</tr>
+		<tr th:each="user : ${users}">
+			<td th:text="${user.username}">username</td>
+			<td th:text="${user.age}">0</td>
+		</tr>
+	</table>
+	<h1>반복 상태 유지</h1>
+	<table border="1">
+		<tr>
+			<th>count</th>
+			<th>username</th>
+			<th>age</th>
+			<th>etc</th>
+		</tr>
+		<!--
+			user: 서버에서 넘겨운 users list를 넘겨받는다.
+			userStat: 현재 loop에 대한 상태를 알려준다.
+					  두번째 파라미터는 생략 가능한데 지정한 변수(user) + Stat = userStat
+		-->
+		<tr th:each="user, userStat : ${users}">
+			<td th:text="${userStat.count}"></td>
+			<td th:text="${user.username}">username</td>
+			<td th:text="${user.age}">0</td>
+			<td>
+				index = <span th:text="${userStat.index}"/>
+				Count = <span th:text="${userStat.count}"/>
+				size = <span th:text="${userStat.size}"/>
+				even? = <span th:text="${userStat.even}"/>
+				odd? = <span th:text="${userStat.odd}"/>
+				last? = <span th:text="${userStat.last}"/>
+			</td>
+		</tr>
 	</table>
 </body>
 </html>
