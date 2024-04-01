@@ -31,6 +31,15 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mylogin (1)" />
+        <option name="gradleJvm" value="JavaSE-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mylogin (1)" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/project" />
         <option name="gradleJvm" value="JavaSE-17" />
         <option name="modules">

@@ -4,56 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="2교시">
-      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/block.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/condition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/src/main/java/com/codingbox/test/ExamApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/src/test/java/com/codingbox/test/ExamApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/ProjectApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/controller/BasicItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/repository/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/basic/addForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/basic/item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/basic/items.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/addForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/editForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/items.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/test/java/com/example/project/ProjectApplicationTests.java" afterDir="false" />
+    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="3교시">
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/MyloginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/TestDataInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/item/BasicItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/item/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/member/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/resources/templates/members/addMemberForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/test/java/com/codingbox/mylogin/MyloginApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/basic/BasicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/basic/BasicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestParamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/request/RequestParamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/each.html" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/resources/templates/basic/each.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/controller/BasicItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/controller/BasicItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/basic/editForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/editForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/basic/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/items.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +50,9 @@
     <projectState path="$PROJECT_DIR$/../../Dobby_Project/dobby_music">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/MyLogin">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/day03">
       <ProjectState />
     </projectState>
@@ -74,6 +60,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/exam">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mylogin (1)">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/project">
@@ -103,13 +92,13 @@
       <list>
         <option value="HTTP Request" />
         <option value="CSS File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -117,6 +106,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2eINqHCQ7oCluf0we4lsACPn9gY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -142,16 +134,19 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/gb_lhm_1218/spring/workspace/project/build.gradle",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/gb_lhm_1218/spring/workspace",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "spring.configuration.checksum": "71be012be0aabb8be787a6d56415009b",
     "vue.rearranger.settings.migration": "true"
@@ -164,28 +159,30 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\gb_lhm_1218\spring\workspace\MyLogin\src\main\java\com\codingboxs\mylogin" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\MyLogin\src\main\java\com\codingboxs\mylogin\domain\item" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\MyLogin\src\main\resources\templates\members" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\MyLogin\src\main\resources\templates" />
       <recent name="C:\gb_lhm_1218\spring\workspace\project\src\main\resources\templates\basic" />
-      <recent name="C:\gb_lhm_1218\spring\workspace\project\src\main\resources\static\basic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\gb_lhm_1218\spring\workspace\MyLogin\src\main\resources\static" />
       <recent name="C:\gb_lhm_1218\spring\workspace\project\src\main\resources\templates\basic" />
       <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\templates\basic" />
       <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\static\basic" />
       <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\static\templates.basic" />
-      <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\templates\response\basic" />
     </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProjectApplication">
-    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="단일 요청 실행">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.MyloginApplication">
     <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
@@ -247,6 +244,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyLoginApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MyLogin.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingboxs.mylogin.web.MyLoginApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingboxs.mylogin.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MyLogin.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingboxs.mylogin.MyLoginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyloginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mylogin.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.mylogin.MyloginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProjectApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="project.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.item.ProjectApplication" />
@@ -265,8 +289,9 @@
       <item itemvalue="HTTP 요청.generated-requests | #6" />
       <item itemvalue="HTTP 요청.generated-requests | #7" />
       <item itemvalue="HTTP 요청.generated-requests | #8" />
-      <item itemvalue="HTTP 요청.generated-requests | #4" />
       <item itemvalue="HTTP 요청.generated-requests | #5" />
+      <item itemvalue="Spring Boot.MyLoginApplication" />
+      <item itemvalue="Spring Boot.MyloginApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
       <item itemvalue="Spring Boot.ExamApplication" />
@@ -276,16 +301,24 @@
       <item itemvalue="Spring Boot.ProjectApplication" />
       <item itemvalue="Spring Boot.Day03Application" />
       <item itemvalue="Spring Boot.Core3Application" />
+      <item itemvalue="Spring Boot.MyLoginApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MyLoginApplication (1)" />
         <item itemvalue="HTTP 요청.generated-requests | #8" />
         <item itemvalue="HTTP 요청.generated-requests | #7" />
         <item itemvalue="HTTP 요청.generated-requests | #6" />
         <item itemvalue="HTTP 요청.generated-requests | #5" />
-        <item itemvalue="HTTP 요청.generated-requests | #4" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -308,7 +341,9 @@
       <workItem from="1711929697855" duration="126000" />
       <workItem from="1711929863429" duration="2079000" />
       <workItem from="1711932355025" duration="3999000" />
-      <workItem from="1711937286990" duration="2887000" />
+      <workItem from="1711937286990" duration="6711000" />
+      <workItem from="1711948020739" duration="8646000" />
+      <workItem from="1711960012972" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="출근">
       <created>1711591836236</created>
@@ -352,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711677592540</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="3교시">
+      <created>1711941756301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711941756301</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,11 +414,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="출근" />
-    <MESSAGE value="3교시" />
     <MESSAGE value="점심시간" />
     <MESSAGE value="종료" />
     <MESSAGE value="2교시" />
-    <option name="LAST_COMMIT_MESSAGE" value="2교시" />
+    <MESSAGE value="3교시" />
+    <option name="LAST_COMMIT_MESSAGE" value="3교시" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
