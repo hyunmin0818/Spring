@@ -4,39 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="3교시">
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/MyloginApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/TestDataInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/item/BasicItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/item/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/member/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/web/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/main/resources/templates/members/addMemberForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylogin (1)/src/test/java/com/codingbox/mylogin/MyloginApplicationTests.java" afterDir="false" />
+    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="0401종료">
+      <change afterPath="$PROJECT_DIR$/../../Dobby_Project/dobby_music/src/main/java/com/project/side/music/user/LoginToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin/src/main/java/com/codingbox/mylogin/domain/item/BasicItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin/src/main/resources/templates/basic/addForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin/src/main/resources/templates/basic/editForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin/src/main/resources/templates/basic/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylogin/src/main/resources/templates/basic/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Dobby_Project/dobby_music/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Dobby_Project/dobby_music/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Dobby_Project/dobby_music/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Dobby_Project/dobby_music/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/controller/BasicItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/controller/BasicItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/codingbox/item/domain/item/repository/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/basic/editForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/editForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/basic/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/basic/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exam/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/MyloginApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/item/BasicItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/member/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/domain/member/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/java/com/codingbox/mylogin/web/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/main/resources/templates/members/addMemberForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogin (1)/src/test/java/com/codingbox/mylogin/MyloginApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +66,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/exam">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mylogin">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/mylogin (1)">
@@ -106,9 +115,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2eINqHCQ7oCluf0we4lsACPn9gY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -123,6 +132,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.mylogin (1) 빌드.executor": "Run",
+    "Gradle.mylogin 빌드.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -130,12 +141,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.MyloginApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/gb_lhm_1218/spring/workspace",
+    "last_opened_file_path": "C:/gb_lhm_1218/spring/workspace/mylogin/src/main/java/com/codingbox/mylogin/domain/item",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -147,7 +159,7 @@
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "71be012be0aabb8be787a6d56415009b",
     "vue.rearranger.settings.migration": "true"
   },
@@ -159,18 +171,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\gb_lhm_1218\spring\workspace\mylogin\src\main\java\com\codingbox\mylogin\domain\item" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\mylogin\src\main\resources\templates\basic" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\mylogin (1)\src\main\resources\templates\login" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\mylogin (1)\src\main\resources\templates" />
       <recent name="C:\gb_lhm_1218\spring\workspace\MyLogin\src\main\java\com\codingboxs\mylogin" />
-      <recent name="C:\gb_lhm_1218\spring\workspace\MyLogin\src\main\java\com\codingboxs\mylogin\domain\item" />
-      <recent name="C:\gb_lhm_1218\spring\workspace\MyLogin\src\main\resources\templates\members" />
-      <recent name="C:\gb_lhm_1218\spring\workspace\MyLogin\src\main\resources\templates" />
-      <recent name="C:\gb_lhm_1218\spring\workspace\project\src\main\resources\templates\basic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\gb_lhm_1218\spring\workspace\mylogin (1)\src\main\resources\templates\login" />
       <recent name="C:\gb_lhm_1218\spring\workspace\MyLogin\src\main\resources\static" />
       <recent name="C:\gb_lhm_1218\spring\workspace\project\src\main\resources\templates\basic" />
       <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\templates\basic" />
       <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\static\basic" />
-      <recent name="C:\gb_lhm_1218\spring\workspace\day03\src\main\resources\static\templates.basic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,7 +277,7 @@
       </method>
     </configuration>
     <configuration name="MyloginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="mylogin.main" />
+      <module name="workspace.mylogin.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.mylogin.MyloginApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -344,6 +356,8 @@
       <workItem from="1711937286990" duration="6711000" />
       <workItem from="1711948020739" duration="8646000" />
       <workItem from="1711960012972" duration="307000" />
+      <workItem from="1712015591551" duration="6888000" />
+      <workItem from="1712023075779" duration="5840000" />
     </task>
     <task id="LOCAL-00001" summary="출근">
       <created>1711591836236</created>
@@ -394,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711941756301</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0401종료">
+      <option name="closed" value="true" />
+      <created>1712015683858</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712015683858</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +427,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -418,7 +452,8 @@
     <MESSAGE value="종료" />
     <MESSAGE value="2교시" />
     <MESSAGE value="3교시" />
-    <option name="LAST_COMMIT_MESSAGE" value="3교시" />
+    <MESSAGE value="0401종료" />
+    <option name="LAST_COMMIT_MESSAGE" value="0401종료" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

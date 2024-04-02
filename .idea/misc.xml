@@ -6,7 +6,8 @@
     <file type="web" url="file://$PROJECT_DIR$/day03" />
     <file type="web" url="file://$PROJECT_DIR$/demo" />
     <file type="web" url="file://$PROJECT_DIR$/exam" />
-    <file type="web" url="file://$PROJECT_DIR$/MyLogin" />
+    <file type="web" url="file://$PROJECT_DIR$/mylogin" />
+    <file type="web" url="file://$PROJECT_DIR$/mylogin (1)" />
     <file type="web" url="file://$PROJECT_DIR$/project" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
