@@ -4,8 +4,10 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../../Dobby_Project/dobby_music" />
     <file type="web" url="file://$PROJECT_DIR$/day03" />
-    <file type="web" url="file://$PROJECT_DIR$/demo" />
+    <file type="web" url="file://$PROJECT_DIR$/DEMO" />
     <file type="web" url="file://$PROJECT_DIR$/exam" />
+    <file type="web" url="file://$PROJECT_DIR$/JPA" />
+    <file type="web" url="file://$PROJECT_DIR$/jpaitem" />
     <file type="web" url="file://$PROJECT_DIR$/mylogin" />
     <file type="web" url="file://$PROJECT_DIR$/mylogin (1)" />
     <file type="web" url="file://$PROJECT_DIR$/project" />

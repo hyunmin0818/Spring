@@ -3,10 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exam.main.iml" filepath="$PROJECT_DIR$/.idea/modules/exam.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpa.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jpa.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpaitem.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jpaitem.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/music.main.iml" filepath="$PROJECT_DIR$/.idea/modules/music.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mylogin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mylogin.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/project.main.iml" filepath="$PROJECT_DIR$/.idea/modules/project.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workspace.mylogin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/workspace.mylogin.main.iml" />
     </modules>
   </component>
 </project>

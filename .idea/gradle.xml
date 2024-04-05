@@ -13,6 +13,28 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/DEMO" />
+        <option name="gradleJvm" value="JavaSE-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/DEMO" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JPA" />
+        <option name="gradleJvm" value="JavaSE-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/JPA" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/day03" />
         <option name="gradleJvm" value="JavaSE-17" />
         <option name="modules">
