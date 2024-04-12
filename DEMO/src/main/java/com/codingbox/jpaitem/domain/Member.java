@@ -5,23 +5,38 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //@Entity
-@Getter @Setter
 @NoArgsConstructor
-@SequenceGenerator(name = "MEMBER_SEQ+GENEATOR",
-                    sequenceName = "MEMBER_SEQ",
-                    initialValue = 1, allocationSize = 1)
+@Getter @Setter
 public class Member {
-    @Id
-    @GeneratedValue() // AUTO
-    @Column(unique = true, name = "USER_ID")
-    private long id;
 
-    private String name;
+	@Id
+	@GeneratedValue		// 전략 생성하면 AUTO 이다.
+	@Column(name = "MEMBER_ID")
+	private Long id;
+	private String name;
+	private String city;
+	private String street;
+	private String zipcode;
 
-    private String city;
+	public Member(String name, String city, String street, String zipcode) {
+		this.name = name;
+		this.city = city;
+		this.street = street;
+		this.zipcode = zipcode;
+	}
 
-    private String street;
+	@OneToMany(mappedBy = "member")
+	private List<Order> orders = new ArrayList<>();
 
-    private String zipcode;
+	public void addOrder(Order order) {
+	order.setMember(this);
+	this.orders.add(order);
+	}
 }
+
+
+

@@ -1,26 +1,40 @@
 package com.codingbox.jpaitem.domain;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
 
 //@Entity
-@Getter
-@Setter
+@Getter @Setter
 @NoArgsConstructor
+@Table(name = "item")
 public class Item {
     @Id
-    @GeneratedValue()
-    @Column(name = "ITEM_ID")
-    private long id;
-
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "ITME_ID")
+    private Long id;
     private String name;
+    private Integer price;
+    private Integer stockQuantity;
 
-    private int price;
+    @OneToMany(mappedBy = "item")
+    private List<OrderItem> orderItems = new ArrayList<>();
 
-    private int stockQuantity;
+    public void addOrderItem(OrderItem orderItem) {
+        orderItem.setItem(this);
+        orderItems.add(orderItem);
+    }
+
+    @CreationTimestamp
+    private Timestamp regdate;
+
+    @UpdateTimestamp
+    private Timestamp updatedate;
 }
