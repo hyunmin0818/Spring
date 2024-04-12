@@ -5,122 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="1교시">
-      <change afterPath="$PROJECT_DIR$/../../Dobby_Project/dobby_music/src/test/java/com/project/side/music/SpringBootTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/JpaitemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/embedded/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/embedded/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/embedded/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/embedded/Period.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEMO/src/test/java/com/codingbox/jpaitem/JpaitemApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/codingbox/test/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/codingbox/test/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/codingbox/test/repository/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/codingbox/test/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/static/html/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/static/html/studentAddForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/static/html/studentEditForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/static/html/students.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/templates/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/templates/html/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/templates/html/studentAddForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/templates/html/studentEditForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/templates/html/students.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/test/java/com/codingbox/test/TestApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/ShopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/ItemForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/MemberForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Week.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/css/jumbotron-narrow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/items/createItemForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/items/itemList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/items/updateItemForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/members/memberList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/test/java/com/codingbox/shop/ShopApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/exception/NotEnoughStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/main03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/application.properties.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/JpaMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/JpaMain2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/JpaMain3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/domain/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/domain/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/relration/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/relration/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/relration/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/relration/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/java/com/codingbox/jpaitem/relration/repository/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/src/test/java/com/codingbox/jpaitem/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/response/ResponseViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/codingbox/core3/web/response/ResponseViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mylogin/src/main/java/com/codingbox/mylogin/domain/item/BasicItemContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/mylogin/src/main/java/com/codingbox/mylogin/domain/item/BasicItemContoller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/shop/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/ItemForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/ItemForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/MemberForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/MemberForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main01.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main02.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Week.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/fragments/bodyHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/items/createItemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/items/createItemForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/items/itemList.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/items/itemList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/items/updateItemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/items/updateItemForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/members/createMemberForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/members/memberList.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/members/memberList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +217,7 @@
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "Errors",
     "spring.configuration.checksum": "71be012be0aabb8be787a6d56415009b",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.JpaMain4.executor": "Run",
@@ -309,6 +232,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.codingbox.shop.exception" />
       <recent name="com.codingbox.test.repository" />
       <recent name="com.codingbox.mylogin" />
     </key>
@@ -345,12 +269,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopApplication">
-    <configuration name="Main02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingbox.shop.test.Main02" />
-      <module name="shop.main" />
+    <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingbox.shop.Main01" />
+      <module name="shop.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingbox.shop.test.*" />
+          <option name="PATTERN" value="com.codingbox.shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,15 +307,15 @@
       <item itemvalue="HTTP 요청.generated-requests | #7" />
       <item itemvalue="HTTP 요청.generated-requests | #6" />
       <item itemvalue="Spring Boot.ShopApplication" />
-      <item itemvalue="애플리케이션.Main02" />
+      <item itemvalue="애플리케이션.Main01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main01" />
         <item itemvalue="HTTP 요청.generated-requests | #9" />
         <item itemvalue="HTTP 요청.generated-requests | #8" />
         <item itemvalue="HTTP 요청.generated-requests | #7" />
         <item itemvalue="HTTP 요청.generated-requests | #6" />
-        <item itemvalue="애플리케이션.Main02" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +364,7 @@
       <workItem from="1712556682346" duration="22607000" />
       <workItem from="1712794598360" duration="122000" />
       <workItem from="1712794738318" duration="20190000" />
-      <workItem from="1712880412838" duration="5160000" />
+      <workItem from="1712880412838" duration="12736000" />
     </task>
     <task id="LOCAL-00001" summary="출근">
       <created>1711591836236</created>
@@ -507,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712304384099</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1교시">
+      <option name="closed" value="true" />
+      <created>1712887225028</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712887225028</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

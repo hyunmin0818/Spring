@@ -1,6 +1,5 @@
 package com.codingbox.shop.domain;
 
 public enum OrderStatus {
-    ORDER, CANCEL;
-
+	Order, Cancel;
 }
