@@ -1,16 +1,16 @@
 package com.codingbox.shop.test;
 
 public enum Type {
-	Walking("워킹화"),
-	Running("러닝화"),
-	Tracking("트래킹화"),
-	Hiking("등산화");
-	
-	final private String name;
-	private Type(String name) {
-		this.name = name;
-	}
-	public String getName() {
-		return name;
-	}
+    WALKING("워킹화"),
+    RUNNING("러닝화"),
+    TRACKING("트래킹화"),
+    HIKING("등산화");
+
+    final private String name;
+    private Type(String name) { // enum에서 생성자 같은 역할
+        this.name = name;
+    }
+    public String getName() { // 문자를 받아오는 함수
+        return name;
+    }
 }

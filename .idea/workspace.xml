@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="1교시">
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/exception/NotEnoughStockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/main03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/application.properties.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderList.html" afterDir="false" />
+    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="4교시">
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/OrderSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/shop/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/ItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/MemberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/OrderController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Member.java" afterDir="false" />
@@ -23,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/ItemForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/ItemForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/MemberForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/MemberForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/exception/NotEnoughStockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/exception/NotEnoughStockException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/ItemRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/MemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/OrderRepository.java" afterDir="false" />
@@ -33,7 +31,8 @@
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main02.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Week.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/main03.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/main03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/application.properties.bak" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/application.properties.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/fragments/bodyHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
@@ -44,6 +43,7 @@
       <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/members/createMemberForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/members/memberList.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/members/memberList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderList.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,9 +103,28 @@
         <task path="$PROJECT_DIR$/project">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/shop">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="shop" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="shop" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="shop" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -172,6 +191,7 @@
     "Gradle.mylogin 빌드.executor": "Run",
     "Gradle.shop [:Main01.main()].executor": "Run",
     "Gradle.shop [:Main02.main()].executor": "Run",
+    "Gradle.shop [build].executor": "Run",
     "Gradle.shop 빌드.executor": "Run",
     "HTTP 요청.generated-requests | #1.executor": "Run",
     "HTTP 요청.generated-requests | #10.executor": "Debug",
@@ -268,7 +288,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopApplication">
+  <component name="RunManager" selected="Gradle.shop [build]">
     <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingbox.shop.Main01" />
       <module name="shop.test" />
@@ -282,7 +302,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="단일 요청 실행">
+    <configuration name="shop [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/shop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="단일 요청 실행">
@@ -302,20 +341,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.shop [build]" />
       <item itemvalue="HTTP 요청.generated-requests | #8" />
       <item itemvalue="HTTP 요청.generated-requests | #9" />
       <item itemvalue="HTTP 요청.generated-requests | #7" />
-      <item itemvalue="HTTP 요청.generated-requests | #6" />
       <item itemvalue="Spring Boot.ShopApplication" />
       <item itemvalue="애플리케이션.Main01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.shop [build]" />
         <item itemvalue="애플리케이션.Main01" />
         <item itemvalue="HTTP 요청.generated-requests | #9" />
         <item itemvalue="HTTP 요청.generated-requests | #8" />
         <item itemvalue="HTTP 요청.generated-requests | #7" />
-        <item itemvalue="HTTP 요청.generated-requests | #6" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +403,7 @@
       <workItem from="1712556682346" duration="22607000" />
       <workItem from="1712794598360" duration="122000" />
       <workItem from="1712794738318" duration="20190000" />
-      <workItem from="1712880412838" duration="12736000" />
+      <workItem from="1712880412838" duration="15551000" />
     </task>
     <task id="LOCAL-00001" summary="출근">
       <created>1711591836236</created>
@@ -439,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712887225028</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="4교시">
+      <option name="closed" value="true" />
+      <created>1712900838403</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712900838403</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +526,8 @@
     <MESSAGE value="0405종료" />
     <MESSAGE value="0409종료" />
     <MESSAGE value="1교시" />
-    <option name="LAST_COMMIT_MESSAGE" value="1교시" />
+    <MESSAGE value="4교시" />
+    <option name="LAST_COMMIT_MESSAGE" value="4교시" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
