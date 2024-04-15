@@ -107,6 +107,17 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/querydsl2" />
+        <option name="gradleJvm" value="JavaSE-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/querydsl2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/shop" />
         <option name="gradleJvm" value="JavaSE-17" />
         <option name="modules">

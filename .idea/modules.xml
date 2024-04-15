@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/music.main.iml" filepath="$PROJECT_DIR$/.idea/modules/music.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mylogin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mylogin.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/project.main.iml" filepath="$PROJECT_DIR$/.idea/modules/project.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/querydsl.main.iml" filepath="$PROJECT_DIR$/.idea/modules/querydsl.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shop.main.iml" />
     </modules>
   </component>

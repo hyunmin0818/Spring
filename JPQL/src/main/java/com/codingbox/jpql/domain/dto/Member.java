@@ -14,8 +14,8 @@ public class Member {
         this.age = age;
     }
 
-    public void changeTeam(Team team){
-        this.team = team;
-        team.getMembers().add(this);
-    }
+//    public void changeTeam(Team team){
+//        this.team = team;
+//        team.getMembers().add(this);
+//    }
 }

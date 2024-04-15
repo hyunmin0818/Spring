@@ -4,80 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="5교시">
-      <change afterPath="$PROJECT_DIR$/JPQL/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/JpqlApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/dto/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/repository/TeamRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/test/java/com/codingbox/jpql/JpqlApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/com/codingbox/querydsl/QuerydslApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/com/codingbox/querydsl/domain/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/test/java/com/codingbox/querydsl/QuerydslApplicationTests.java" afterDir="false" />
+    <list default="true" id="6e786917-8029-40a5-b6e4-af781dd5db35" name="변경" comment="04/15 종료">
+      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/com/codingbox/querydsl/QueryDSLMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/com/codingbox/querydsl/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/com/codingbox/querydsl/domain/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/src/main/java/com/codingbox/querydsl2/QueryDSLMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/src/main/java/com/codingbox/querydsl2/Querydsl2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/src/main/java/com/codingbox/querydsl2/domain/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/src/main/java/com/codingbox/querydsl2/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/src/main/java/com/codingbox/querydsl2/domain/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl2/src/test/java/com/codingbox/querydsl2/Querydsl2ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/shop/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/domain/OrderStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/ItemForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/ItemForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/MemberForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/MemberForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/OrderSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/dto/OrderSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/exception/NotEnoughStockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/exception/NotEnoughStockException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main01.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main02.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Main02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/Week.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/main03.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/java/com/codingbox/shop/test/main03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/application.properties.bak" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/application.properties.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/items/createItemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/items/createItemForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/items/itemList.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/items/itemList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/items/updateItemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/items/updateItemForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/members/createMemberForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/members/memberList.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/members/memberList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderList.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/main/resources/templates/order/orderList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPQL/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JPQL/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/dto/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPQL/src/main/java/com/codingbox/jpql/domain/dto/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/querydsl/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/querydsl/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/querydsl/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/querydsl/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +83,9 @@
     <projectState path="$PROJECT_DIR$/querydsl">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/querydsl2">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/shop">
       <ProjectState />
     </projectState>
@@ -146,25 +102,15 @@
         <task path="$PROJECT_DIR$/shop">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/querydsl">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/JPQL">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="shop" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="shop" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="shop" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -198,6 +144,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/3.1.0/8d479b8d71750d5c2b8e58034b80231994cba6ec/jakarta.persistence-api-3.1.0-sources.jar!/jakarta/persistence/EntityManager.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
@@ -230,9 +179,12 @@
     "Gradle.JPQL [:JpqlMain2.main()].executor": "Run",
     "Gradle.JpqlApplicationTests.contextLoads.executor": "Run",
     "Gradle.JpqlApplicationTests.executor": "Run",
+    "Gradle.QuerydslApplicationTests.executor": "Run",
     "Gradle.Test 빌드.executor": "Run",
     "Gradle.mylogin (1) 빌드.executor": "Run",
     "Gradle.mylogin 빌드.executor": "Run",
+    "Gradle.querydsl [:QueryDSLMain.main()].executor": "Run",
+    "Gradle.querydsl.executor": "Run",
     "Gradle.shop [:Main01.main()].executor": "Run",
     "Gradle.shop [:Main02.main()].executor": "Run",
     "Gradle.shop [build].executor": "Run",
@@ -269,23 +221,24 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/gb_lhm_1218/spring/workspace/querydsl/src/main/resources",
+    "last_opened_file_path": "C:/gb_lhm_1218/spring/workspace/querydsl2/src/main/java/com/codingbox/querydsl2/domain",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "아티팩트",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "spring.configuration.checksum": "71be012be0aabb8be787a6d56415009b",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.JpaMain4.executor": "Run",
-    "애플리케이션.com.codingbox.jpaitem.JpaMain.executor": "Run"
+    "애플리케이션.com.codingbox.jpaitem.JpaMain.executor": "Run",
+    "애플리케이션.com.codingbox.querydsl2.QueryDSLMain.executor": "Run"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -301,11 +254,11 @@
       <recent name="com.codingbox.mylogin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\gb_lhm_1218\spring\workspace\querydsl2\src\main\java\com\codingbox\querydsl2\domain" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\querydsl2\src\main\resources" />
+      <recent name="C:\gb_lhm_1218\spring\workspace\querydsl\src\main\java\com\codingbox\querydsl" />
       <recent name="C:\gb_lhm_1218\spring\workspace\querydsl\src\main\resources" />
       <recent name="C:\gb_lhm_1218\spring\workspace\JPQL\src\main\resources" />
-      <recent name="C:\gb_lhm_1218\spring\workspace\shop\src\main\resources\templates\order" />
-      <recent name="C:\gb_lhm_1218\spring\workspace\shop\src\main\resources\templates\items" />
-      <recent name="C:\gb_lhm_1218\spring\workspace\shop\src\main\resources\templates\item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\gb_lhm_1218\spring\workspace\Test\src\main\resources\static\html" />
@@ -318,10 +271,11 @@
       <recent name="com.codingbox.mylogin.filter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codingbox.querydsl2" />
+      <recent name="com.codingbox.querydsl2.domain" />
       <recent name="com.codingbox.jpql" />
       <recent name="com.codingbox.jpaitem" />
       <recent name="com.codingbox.jpa.entity" />
-      <recent name="com.codingbox.jpa" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,13 +287,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.JpqlApplicationTests">
-    <configuration name="JpqlMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingbox.jpql.JpqlMain" />
-      <module name="JPQL.main" />
+  <component name="RunManager" selected="애플리케이션.com.codingbox.querydsl2.QueryDSLMain">
+    <configuration name="QueryDSLMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingbox.querydsl.QueryDSLMain" />
+      <module name="querydsl.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingbox.jpql.*" />
+          <option name="PATTERN" value="com.codingbox.querydsl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,12 +301,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpqlMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingbox.jpql.JpqlMain2" />
-      <module name="JPQL.main" />
+    <configuration name="com.codingbox.querydsl2.QueryDSLMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingbox.querydsl2.QueryDSLMain" />
+      <module name="querydsl2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingbox.jpql.*" />
+          <option name="PATTERN" value="com.codingbox.querydsl2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,10 +338,10 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="JpqlApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuerydslApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/JPQL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/querydsl" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -397,7 +351,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.codingbox.jpql.JpqlApplicationTests.contextLoads&quot;" />
+            <option value="&quot;com.codingbox.querydsl.QuerydslApplicationTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -408,19 +362,17 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="shop [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="querydsl" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/shop" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/querydsl" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
+          <list />
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
@@ -433,6 +385,13 @@
     <configuration name="JpqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="JPQL.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.jpql.JpqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Querydsl2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="querydsl2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingbox.querydsl2.Querydsl2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -453,21 +412,22 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.JpqlApplicationTests" />
-      <item itemvalue="Gradle.JpqlApplicationTests.contextLoads" />
-      <item itemvalue="Gradle.shop [build]" />
+      <item itemvalue="Gradle.QuerydslApplicationTests" />
+      <item itemvalue="Gradle.querydsl" />
       <item itemvalue="Spring Boot.JpqlApplication" />
+      <item itemvalue="Spring Boot.Querydsl2Application" />
       <item itemvalue="Spring Boot.QuerydslApplication" />
       <item itemvalue="Spring Boot.ShopApplication" />
-      <item itemvalue="애플리케이션.JpqlMain" />
-      <item itemvalue="애플리케이션.JpqlMain2" />
+      <item itemvalue="애플리케이션.QueryDSLMain" />
+      <item itemvalue="애플리케이션.com.codingbox.querydsl2.QueryDSLMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.com.codingbox.querydsl2.QueryDSLMain" />
+        <item itemvalue="Gradle.querydsl" />
+        <item itemvalue="Gradle.QuerydslApplicationTests" />
+        <item itemvalue="애플리케이션.QueryDSLMain" />
         <item itemvalue="Gradle.JpqlApplicationTests" />
-        <item itemvalue="Gradle.JpqlApplicationTests.contextLoads" />
-        <item itemvalue="애플리케이션.JpqlMain2" />
-        <item itemvalue="애플리케이션.JpqlMain" />
-        <item itemvalue="Gradle.shop [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -517,7 +477,7 @@
       <workItem from="1712794598360" duration="122000" />
       <workItem from="1712794738318" duration="20190000" />
       <workItem from="1712880412838" duration="20297000" />
-      <workItem from="1713139842266" duration="16249000" />
+      <workItem from="1713139842266" duration="26207000" />
     </task>
     <task id="LOCAL-00001" summary="출근">
       <created>1711591836236</created>
@@ -608,7 +568,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712903808722</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="5교시">
+      <option name="closed" value="true" />
+      <created>1713159928605</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713159928605</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +618,8 @@
     <MESSAGE value="1교시" />
     <MESSAGE value="4교시" />
     <MESSAGE value="5교시" />
-    <option name="LAST_COMMIT_MESSAGE" value="5교시" />
+    <MESSAGE value="04/15 종료" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/15 종료" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
