@@ -1,19 +1,21 @@
 package com.codingbox.shop.exception;
 
-public class NotEnoughStockException extends RuntimeException{
+public class NotEnoughStockException extends RuntimeException {
 
-    public NotEnoughStockException() {
-    }
+	public NotEnoughStockException() {
+		super();
+	}
 
-    public NotEnoughStockException(String message) {
-        super(message);
-    }
+	public NotEnoughStockException(String message, Throwable cause) {
+		super(message, cause);
+	}
 
-    public NotEnoughStockException(String message, Throwable cause) {
-        super(message, cause);
-    }
+	public NotEnoughStockException(String message) {
+		super(message);
+	}
 
-    public NotEnoughStockException(Throwable cause) {
-        super(cause);
-    }
+	public NotEnoughStockException(Throwable cause) {
+		super(cause);
+	}
+
 }

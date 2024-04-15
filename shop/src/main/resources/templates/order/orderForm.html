@@ -10,10 +10,11 @@
 			<div class="form-group">
 				<label for="member">주문회원</label> 
 				<select name="memberId" id="member" class="form-control">
-				<option value="">회원선택</option>
+					<option value="">회원선택</option>
 					<option th:each="member : ${members}"
 							th:value="${member.id}"
-							th:text="${member.name}"/>
+							th:text="${member.name}"
+						/>
 				</select>
 			</div>
 
@@ -21,9 +22,10 @@
 				<label for="item">상품명</label> 
 				<select name="itemId" id="item" class="form-control">
 					<option value="">상품선택</option>
-				<option th:each="item : ${items}"
-						th:value="${item.id}"
-						th:text="${item.name}"/>
+					<option th:each="item : ${items}"
+							th:value="${item.id}"
+							th:text="${item.name}"
+					/>
 				</select>
 			</div>
 

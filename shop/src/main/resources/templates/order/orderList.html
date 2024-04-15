@@ -8,20 +8,17 @@
 			<div>
 				<form  class="form-inline" th:object="${orderSearch}">
 					<div class="form-group mb-2">
-						<label>
-							<input type="text" class="form-control" placeholder="회원명"
-							th:field="*{memberName}"/>
-						</label>
+						<input type="text" class="form-control" 
+							placeholder="회원명" th:field="*{memberName}"/>
 					</div>
 					<div class="form-group mx-sm-1 mb-2">
-						<label>
-							<select class="form-control" th:field="*{status}">
-								<option value="">주문상태</option>
-								<option
-									th:each="status : ${T(com.codingbox.shop.domain.OrderStatus).values()}"
-									th:value="${status}" th:text="${status}"></option>
-							</select>
-						</label>
+						<select class="form-control" th:field="*{orderStatus}">
+							<option value="">주문상태</option>
+							<option
+								th:each="status : ${T(com.codingbox.shop.domain.OrderStatus).values()}"							
+								th:value="${status}" th:text="${status}">
+							</option>
+						</select>
 					</div>
 					<button type="submit" class="btn btn-primary mb-2">검색</button>
 				</form>
@@ -41,14 +38,19 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td><a class="btn btn-danger" href="#">CANCEL</a>
+					<tr th:each="item : ${orders}">
+						<td th:text="${item.id}"></td>
+						<td th:text="${item.member.name}"></td>
+ 						<td th:text="${item.orderItems[0].item.name}"></td>
+ 						<td th:text="${item.orderItems[0].orderPrice}"></td>
+ 						<td th:text="${item.orderItems[0].count}"></td>
+						<td th:text="${item.status}" ></td>
+						<td th:text="${item.orderDate}" ></td>
+						<td>
+							<a 	href="#" class="btn btn-danger"
+								th:if="${item.status.name() == 'ORDER'}"
+								th:href="'javascript:cancel(' + ${item.id} +  ')'"
+							>CANCEL</a>
 						</td>
 					</tr>
 
@@ -63,6 +65,22 @@
 
 </body>
 <script>
-
+	function cancel(id){
+		let form = document.createElement("form");
+		form.setAttribute("method","post");
+		form.setAttribute("action","/orders/" + id + "/cancel");
+		document.body.appendChild(form);
+		form.submit();
+	}
 </script>
 </html>
+
+
+
+
+
+
+
+
+
+

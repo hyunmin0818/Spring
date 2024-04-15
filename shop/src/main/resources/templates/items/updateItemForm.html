@@ -7,20 +7,23 @@
 		<div th:replace="fragments/bodyHeader :: bodyHeader" />
 
 		<form method="post" th:object="${form}">
-			
+		
 			<input type="hidden" th:field="*{id}"/>
-			
+
 			<div class="form-group">
-				<label th:for="name" >상품명</label>
-				<input type="text" class="form-control" placeholder="이름을 입력하세요" th:field="*{name}"/>
+				<label th:for="name">상품명</label> 
+				<input type="text" class="form-control" 
+					placeholder="이름을 입력하세요" th:field="*{name}"/>
 			</div>
 			<div class="form-group">
 				<label th:for="price">가격</label> 
-				<input type="number" class="form-control" placeholder="가격을 입력하세요" th:field="*{price}"/>
+				<input type="number" class="form-control" 
+					placeholder="가격을 입력하세요" th:field="*{price}" />
 			</div>
 			<div class="form-group">
 				<label th:for="stockQuantity">수량</label> 
-				<input type="number" class="form-control" placeholder="수량을 입력하세요" th:field="*{stockQuantity}"/>
+				<input type="number" class="form-control" 
+					placeholder="수량을 입력하세요"  th:field="*{stockQuantity}"/>
 			</div>
 			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>

@@ -35,6 +35,15 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JPQL" />
+        <option name="gradleJvm" value="JavaSE-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/JPQL" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Test" />
         <option name="gradleJvm" value="JavaSE-17" />
         <option name="modules">
@@ -85,6 +94,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/querydsl" />
+        <option name="gradleJvm" value="JavaSE-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/querydsl" />
           </set>
         </option>
       </GradleProjectSettings>
