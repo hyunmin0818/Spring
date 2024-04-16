@@ -1,15 +1,14 @@
 package com.codingbox.querydsl2;
 
 
-import com.codingbox.querydsl2.domain.Member;
 import com.codingbox.querydsl2.domain.Team;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.stereotype.Component;
 
+@EntityScan
 public class QueryDSLMain {
 
 	public static void main(String[] args) {
