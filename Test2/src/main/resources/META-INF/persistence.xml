@@ -7,17 +7,16 @@
 	<persistence-unit name="hello">
 		<properties>
 			<!-- 필수 속성 -->
-			<property name="javax.persistence.jdbc.driver"
-				value="oracle.jdbc.driver.OracleDriver" />
-			<property name="javax.persistence.jdbc.user" value="spring" />
-			<property name="javax.persistence.jdbc.password" value="spring" />
-			<property name="javax.persistence.jdbc.url"
+			<property name="jakarta.persistence.jdbc.driver"
+				value="oracle.jdbc.OracleDriver" />
+			<property name="jakarta.persistence.jdbc.user" value="spring" />
+			<property name="jakarta.persistence.jdbc.password" value="spring" />
+			<property name="jakarta.persistence.jdbc.url"
 				value="jdbc:oracle:thin:@localhost:1521:xe" />
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.OracleDialect" />
 <!-- 			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/> -->
 			<property name="hibernate.hbm2ddl.auto" value="create" />
-
 
 			<!-- 옵션 -->
 			<!-- 콘솔에 하이버네이트가 실행하는 SQL문 출력 -->
